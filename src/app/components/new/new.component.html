@@ -1,0 +1,8 @@
+<div style="text-align: center;" *ngIf="user"> 
+    <h1>¡Usuario creado!</h1> 
+    <p>Id: {{user.id}} 
+        <br> Nombre: {{user.name}} 
+        <br>Trabajo: {{user.job}} 
+        <br> Creado: {{user.createdAt|date:'short'}} 
+    </p> 
+</div>
